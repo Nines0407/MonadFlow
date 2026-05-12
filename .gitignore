@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+lib/
+
+# Build output
+out/
+cache/
+cache_hardhat/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Keys
+*.key
+*.pem
+deployer.key
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+lcov.info
+coverage/
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Gas snapshot diff
+.gas-snapshot
